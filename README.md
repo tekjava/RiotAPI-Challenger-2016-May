@@ -23,6 +23,7 @@ The settings for the tables top_list, top_list_BR, top_list_EUNE, top_list_KR, t
 After setting up the database you must put your in the hostname, user, password, database and api key in the following files:
 - /BR/connect_db.php
 - /EUNE/connect_db.php
+- /EUW/connect_db.php
 - /KR/connect_db.php
 - /LAN/connect_db.php
 - /LAS/connect_db.php
