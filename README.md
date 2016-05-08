@@ -38,3 +38,6 @@ After setting up the database you must put the hostname, user, password, databas
 - /RU/connect_db.php
 - /TR/connect_db.php
 - /connect_db.php
+
+LoLMastery.ff is created by:
+Aaron "ForsakenHound" and "TheHHG7"
