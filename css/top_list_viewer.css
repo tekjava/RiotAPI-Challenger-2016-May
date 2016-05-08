@@ -1,0 +1,59 @@
+.Table {
+    position: relative;
+    top: 0px;
+}
+
+.Title {
+    z-index: 1;
+    background-color: #12121b;
+}
+
+.ChampionRankingBox {
+    overflow-y: hidden;
+    max-height: 3105px;
+}
+
+
+.championpageprev {
+
+height:30px;
+padding:0 10px;
+border:1px solid #f2f2f2;
+color:#fff;
+background:#0A0A0E;
+font-size:14px;
+line-height:30px;
+box-shadow:inset 1px 1px #000000, 1px 1px #000000;
+text-shadow:1px 0 #000000;
+border:1px solid #000000;
+margin-left:50px;
+}
+
+.championpagenext {
+
+height:30px;
+padding:0 10px;
+border:1px solid #f2f2f2;
+color:#fff;
+background:#0A0A0E;
+font-size:14px;
+line-height:30px;
+box-shadow:inset 1px 1px #000000, 1px 1px #000000;
+text-shadow:1px 0 #000000;
+border:1px solid #000000;
+margin-left:5px;
+margin-right:5px;
+}
+
+
+.championpageprev:hover{
+border: 1px solid #000000;
+  background: #2CBCBA;
+  color: #fff;
+  }
+  
+  .championpagenext:hover{
+border: 1px solid #000000;
+  background: #2CBCBA;
+  color: #fff;
+  }
