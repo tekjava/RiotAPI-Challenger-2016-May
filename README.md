@@ -16,11 +16,17 @@ The functions in code are self explanatory but however due to lack of the produc
 
 In order to make the code work you need MySQL database with server connection collation and databse collation set as utf8_bin. The database must contain the tables shown in "/tables_1.jpg" with their settings.
 
-The settings for the tables challengerandmaster_data, challengerandmaster_data_KR, challengerandmaster_data_BR, challengerandmaster_data_TR, challengerandmaster_data_EUNE, challengerandmaster_data_LAN, challengerandmaster_data_LAS, challengerandmaster_data_NA, challengerandmaster_data_OSCA, challengerandmaster_data_RU, players_data, players_data_BR, players_data_EUNE, players_data_KR, players_data_LAN, players_data_LAN, players_data_NA, players_data_OSCA, players_data_RU, players_data_TR are shown in "/table_1.jpg".
+![alt tag](https://raw.githubusercontent.com/TheHHG7/RiotAPI-Challenger-2016-May/master/tables_1.jpg)
 
-The settings for the tables top_list, top_list_BR, top_list_EUNE, top_list_KR, top_list_LAN, top_list_LAS, top_list_NA, top_list_OSCA, top_list_RU, top_list_TR are shown in "/table_2.jpg".
+The settings for the tables challengerandmaster_data, challengerandmaster_data_KR, challengerandmaster_data_BR, challengerandmaster_data_TR, challengerandmaster_data_EUNE, challengerandmaster_data_LAN, challengerandmaster_data_LAS, challengerandmaster_data_NA, challengerandmaster_data_OSCA, challengerandmaster_data_RU, players_data, players_data_BR, players_data_EUNE, players_data_KR, players_data_LAN, players_data_LAN, players_data_NA, players_data_OSCA, players_data_RU, players_data_TR are shown in "/coloumn_1.jpg".
 
-After setting up the database you must put your in the hostname, user, password, database and api key in the following files:
+![alt tag](https://raw.githubusercontent.com/TheHHG7/RiotAPI-Challenger-2016-May/master/coloumn_1.jpg)
+
+The settings for the tables top_list, top_list_BR, top_list_EUNE, top_list_KR, top_list_LAN, top_list_LAS, top_list_NA, top_list_OSCA, top_list_RU, top_list_TR are shown in "/coloumns_2.jpg".
+
+![alt tag](https://raw.githubusercontent.com/TheHHG7/RiotAPI-Challenger-2016-May/master/coloumns_2.jpg)
+
+After setting up the database you must put the hostname, user, password, database and api key in the following files:
 - /BR/connect_db.php
 - /EUNE/connect_db.php
 - /EUW/connect_db.php
@@ -32,3 +38,6 @@ After setting up the database you must put your in the hostname, user, password,
 - /RU/connect_db.php
 - /TR/connect_db.php
 - /connect_db.php
+
+LoLMastery.ff is created by:
+Aaron "ForsakenHound" and "TheHHG7"
