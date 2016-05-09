@@ -12,8 +12,6 @@ Also the web is accesible from multiple regions.
 
 The data is stored in a database that is only used for LoLMastery.ff.
 
-The functions in code are self explanatory but however due to lack of the production key, we have put sleep(x) in certain part of the code just so not to spam the api call and x can be changed if and when production key is available.
-
 In order to make the code work you need MySQL database with server connection collation and databse collation set as utf8_bin. The database must contain the tables shown in "/tables_1.jpg" with their settings.
 
 ![alt tag](https://raw.githubusercontent.com/TheHHG7/RiotAPI-Challenger-2016-May/master/tables_1.jpg)
@@ -38,6 +36,8 @@ After setting up the database you must put the hostname, user, password, databas
 - /RU/connect_db.php
 - /TR/connect_db.php
 - /connect_db.php
+
+The data collection files like data_collector(_XX).php or cron_store_playersData_master_challenger(_XX).php can be executed without any secret key for the purpose of the Riot API Challenge, but we will add a secret key after the contest is finished.
 
 LoLMastery.ff is created by:
 Aaron "ForsakenHound" and "TheHHG7"
