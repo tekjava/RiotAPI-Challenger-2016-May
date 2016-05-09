@@ -75,8 +75,12 @@ After setting up the database you must put the hostname, user, password, databas
 - /TR/connect_db.php
 - /connect_db.php
 
-The data collection files like data_collector(_XX).php or cron_store_playersData_master_challenger(_XX).php can be executed without any secret key for the purpose of the Riot API Challenge, but we will add a secret key after the contest is finished.
+To update the information about the Top Champion Points List and Master and Challenger Master Score and Champion Points Lists for each server following files need to be executed which are located in their respected server folders:
+- cron_store_playersData_master_challenger.php to update data about players in Master and Challenger League (better run it twice together so the error responses get deleted and can be set as scheduled task)
+- top_list creator.php to update the Top Champion Points List (also can be ran as a scheduled task)
+- data_collector.php gets the data of the players in the leagues of players already stored in database
 
+The data collection files like data_collector.php or cron_store_playersData_master_challenger.php can be executed without any secret key for the purpose of the Riot API Challenge, but we will add a secret key after the contest is finished.
 
 To complete this project we put in a lot of hours, as we wanted to give back to the League of Legends community. So we made something that we think everyone will use, we also added extra features that make it more fun for users to use our website like the ladders and check your live games.
 
