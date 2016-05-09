@@ -312,7 +312,7 @@ require_once 'connect_db.php';
 									</a>
 								</div>
 															<div class="Champion " data-champion-name="dr. mundo" data-champion-key="drmundo">
-									<a href="?champion=119" class="Action" id="119">
+									<a href="?champion=36" class="Action" id="36">
 										<div class="ChampionImage">
 											<div class="selected"></div>
 											<div class="Image __sprite __spcdrmundo imgsizes">Dr. Mundo</div>
@@ -321,7 +321,7 @@ require_once 'connect_db.php';
 									</a>
 								</div>
 															<div class="Champion " data-champion-name="draven" data-champion-key="draven">
-									<a href="?champion=36" class="Action" id="36">
+									<a href="?champion=119" class="Action" id="119">
 										<div class="ChampionImage">
 											<div class="selected"></div>
 											<div class="Image __sprite __spcdraven imgsizes">Draven</div>
