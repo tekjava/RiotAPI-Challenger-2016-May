@@ -1,18 +1,56 @@
-# LoLMastery.ff - RiotAPI-Challenger-2016-May
+# LoLMastery.net - RiotAPI-Challenger-2016-May
 
-THIS REPOSITORY IS FOR A RIOT API CHALLENGE ENTRY AND THE DATA IS PROVIDED BY RIOT AND ONLY RIOT
+THIS REPOSITORY IS FOR A RIOT API CHALLENGE ENTRY AND THE DATA IS PROVIDED BY RIOT AND ONLY RIOT. ANY DATA STORED IN OUR DATABASE IS FOR US AND US ONLY.
 
-FOR A LIVE DEMO GOTO http://amazonsaver.uk/
+FOR A LIVE DEMO GO TO http://amazonsaver.uk/
 
-With LoLMastery.ff everybody can access anybody's data about their champion masteries with full detail, in addition to that it also shows their ranked info with every champion they have played and their ranked status. You can also find a top list which is sorted by highest champion points, separate from that there is a master and challenger top list with their champion points and mastery scores so players can compare there mastery stats to top ranked players.
+With LoLMastery.net everybody can access anybody's data about their champion masteries with full detail, in addition to that it also shows their ranked info with every champion they have played and their ranked status. You can also find a top list which is sorted by highest champion points, separate from that there is a master and challenger top list with their champion points and mastery scores so players can compare there mastery stats to top ranked players.
 
 We also include a live game checker, that checks to see if a player is in game and will get all information about enemy and your own team, it provides ranked data and mastery data.
 
-Also the web is accesible from multiple regions.
+Also the web is accessible from multiple regions and languages, we also include a function that saves in your cookies the latest server and language the user used, so next time the user loads the site, it will open on same server and language that the user was using before.
 
-The data is stored in a database that is only used for LoLMastery.ff.
+The 10 Servers our website provides access to the users are:
+- BR
+- EUNE
+- EUW
+- KR
+- LAN
+- LAS
+- OCE
+- NA
+- RU
+- TR
 
-In order to make the code work you need MySQL database with server connection collation and databse collation set as utf8_bin. The database must contain the tables shown in "/tables_1.jpg" with their settings.
+WEBSITES MAIN LANGUAGE IS IN ENGLISH
+The 20 Languages our website offer to the users are:
+- English
+- Danish
+- German
+- Spanish
+- Finnish
+- French
+- Hungarian
+- Italian
+- Japanese
+- Korean
+- Norwegian
+- Polish
+- Portuguese
+- Romanian
+- Russian
+- Swedish
+- Slovenian
+- Serbian
+- Turkish
+- Chinese
+
+
+To build this website we used 4 programming languages, HTML, PHP, CSS and JAVASCRIPT.
+
+All data is stored in a database that is only used for LoLMastery.net and automatically updates data when a user updates their profile.
+
+In order to make the code work you need MySQL database with server connection collation and database collation set as utf8_bin. The database must contain the tables shown in "/tables_1.jpg" with their settings.
 
 ![alt tag](https://raw.githubusercontent.com/TheHHG7/RiotAPI-Challenger-2016-May/master/tables_1.jpg)
 
@@ -39,5 +77,41 @@ After setting up the database you must put the hostname, user, password, databas
 
 The data collection files like data_collector(_XX).php or cron_store_playersData_master_challenger(_XX).php can be executed without any secret key for the purpose of the Riot API Challenge, but we will add a secret key after the contest is finished.
 
-LoLMastery.ff is created by:
+
+To complete this project we put in a lot of hours, as we wanted to give back to the League of Legends community. So we made something that we think everyone will use, we also added extra features that make it more fun for users to use our website like the ladders and check your live games.
+
+Website examples:
+
+Home Page - Search for summoner profile page
+![alt tag](https://i.gyazo.com/bd7c44e5c579ee719474dc4ec8b0b8ea.jpg)
+
+Summoner Profile Page
+![alt tag](https://i.gyazo.com/ad7e9bfce50db05f673af7fed02db5bf.jpg)
+
+Challenger & Master Ladder - Champion Points page
+![alt tag](https://i.gyazo.com/49ddd63f2f65a30bc86f73c25f99f9e4.jpg)
+
+Challenger & Master Ladder - Mastery Points page
+![alt tag](https://i.gyazo.com/7019312ad714d733948a2bfe453ad06b.jpg)
+
+Top Champion Mastery Ladder page
+![alt tag](https://i.gyazo.com/751c4b1087443e6f5a860310811f8fd9.jpg)
+
+Live Game Search Page
+![alt tag](https://i.gyazo.com/deed10dc543636b25fc6e3efad6cc0b2.jpg)
+
+Live Game Summoner Results page
+![alt tag](https://i.gyazo.com/2acf175b5058bbb2d13ebe58e24eee6a.jpg)
+
+Change Region and language page
+![alt tag](https://i.gyazo.com/47cbf6d2644b8af5589ee68ce796dc83.jpg)
+
+404 Error Profile search page
+![alt tag](https://i.gyazo.com/dd29222b6c05edcd7b0bf57f85a635ba.jpg)
+
+404 Error Live Game search page
+![alt tag](https://i.gyazo.com/081b79f9ea26e2a21f9b9bf8af32a832.jpg)
+
+
+LoLMastery.net is created by:
 Aaron "ForsakenHound" and "TheHHG7"
