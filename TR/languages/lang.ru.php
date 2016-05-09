@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Результаты поиска призыватель - Лига Легенд призыватель Чемпион мастерства';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Поиск призыватель мастерство и мастерство лестницы';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master Ladder - Лига Легенд призыватель Чемпион Мастерство Рейтинг'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Лучшие точки чемпион лестницы'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Выберите призыватель в ​​игре';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Поиск призыватель мастерство и мастерство лестницы';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master Ladder - Лига Легенд призыватель Чемпион Мастерство Рейтинг'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Лучшие точки чемпион лестницы'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Выберите призыватель в ​​игре';
 $lang['404_title_NOTINGAME'] = 'призыватель не в игре';
 $lang['404_TOP_NOTINGAME'] = 'Похоже, этот призывающий не в игре, пожалуйста, проверьте правильность написания .';
 $lang['LOADING_LIVEGAME'] = 'загрузка...';

@@ -9,11 +9,11 @@ $lang = array();
 
 
 // PAGE TITLE
-$lang['HOMEPAGE_TITLE'] = 'Summoner search results - League of Legends Summoner champion mastery - LoLMastery.ff';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Search summoner mastery and mastery ladders';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master Ladder - League of Legends Summoner Champion Mastery Ranking'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Top champion points ladder'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Search a Summoner in game'; 
+$lang['HOMEPAGE_TITLE'] = 'Summoner search results - League of Legends Summoner champion mastery - LoLMastery.net';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Search summoner mastery and mastery ladders';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master Ladder - League of Legends Summoner Champion Mastery Ranking'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Top champion points ladder'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Search a Summoner in game'; 
 $lang['404_title_NOTINGAME'] = 'Summoner not in game';
 $lang['404_TOP_NOTINGAME'] = 'Looks like this summoner is not in game, please check your spelling.';
 $lang['LOADING_LIVEGAME'] = 'Loading...';

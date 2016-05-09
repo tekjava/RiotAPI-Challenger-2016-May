@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Summoner Hakutulokset - League of Legends Summoner mestari mestaruus';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Haku summoner mestaruus ja mestaruus tikkaat';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master Tikapuut - League of Legends Summoner Mestari Mestaruus Sijoitus'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Ylin mestari pistettä tikkaat'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Hakea Summoner peli';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Haku summoner mestaruus ja mestaruus tikkaat';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master Tikapuut - League of Legends Summoner Mestari Mestaruus Sijoitus'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Ylin mestari pistettä tikkaat'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Hakea Summoner peli';
 $lang['404_title_NOTINGAME'] = 'Summoner ei peli';
 $lang['404_TOP_NOTINGAME'] = 'Näyttää tämä Summoner ei ole peli , tarkista oikeinkirjoitus.';
 $lang['LOADING_LIVEGAME'] = 'Ladataan...';

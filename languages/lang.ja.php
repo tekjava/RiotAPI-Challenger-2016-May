@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'サモナーの検索結果 - 伝説の召喚チャンピオンマスタリーのリーグ';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - 検索召喚習得と習得のはしご';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - チャレンジャー＆マスターラダー - ランキングリーグ伝説の召喚チャンピオンマスタリー'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - トップチャンピオンポイントラダー'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - ゲームで召喚を検索';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - 検索召喚習得と習得のはしご';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - チャレンジャー＆マスターラダー - ランキングリーグ伝説の召喚チャンピオンマスタリー'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - トップチャンピオンポイントラダー'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - ゲームで召喚を検索';
 $lang['404_title_NOTINGAME'] = 'ゲームではないサモナー';
 $lang['404_TOP_NOTINGAME'] = 'この召喚はゲームではないように、あなたのスペルをチェックしてくださいに見えます。';
 $lang['LOADING_LIVEGAME'] = 'ローディング...';

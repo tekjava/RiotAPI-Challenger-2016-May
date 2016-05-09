@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Summoner Resultados - League of Legends Summoner campeão mestria';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Maestria pesquisa Summoner e progressão mestria';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master progressão - League of Legends Summoner Campeão Mestria Posição'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Tontos do campeão com top progresso'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Procurar Summoner no jogo';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Maestria pesquisa Summoner e progressão mestria';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master progressão - League of Legends Summoner Campeão Mestria Posição'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Tontos do campeão com top progresso'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Procurar Summoner no jogo';
 $lang['404_title_NOTINGAME'] = 'Summoner nao esta em jogo';
 $lang['404_TOP_NOTINGAME'] = 'Parece que este Summoner não está no jogo , por favor verifique a ortografia.';
 $lang['LOADING_LIVEGAME'] = 'Carregando...';

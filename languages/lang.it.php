@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Evocatore risultati di ricerca - League of Legends Evocatore campione padronanza';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Cerca Evocatore padronanza e maestria scale';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master Scala - League of Legends Evocatore Campione Padronanza Posto'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Superiore punti campione scaletta'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Keresés a Evocatore a játékban';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Cerca Evocatore padronanza e maestria scale';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master Scala - League of Legends Evocatore Campione Padronanza Posto'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Superiore punti campione scaletta'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Keresés a Evocatore a játékban';
 $lang['404_title_NOTINGAME'] = 'Non Evocatore in gioco';
 $lang['404_TOP_NOTINGAME'] = 'Sembra che questo Evocatore non è in gioco , si prega di controllare l&#39;ortografia.';
 $lang['LOADING_LIVEGAME'] = 'Caricamento...';

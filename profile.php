@@ -912,8 +912,8 @@
     <!-- FOOTER OPEN -->
     <footer>
         <div class="wrapInner">
-            &copy; 2016 LoLMastery.ff  &middot;
-		   <a href="about.php">LoLMastery.ff isn't endorsed by Riot Games, Inc. League of Legends © Riot Games, Inc.</a>
+            &copy; 2016 LoLMastery.net  &middot;
+		   <a href="about.php">LoLMastery.net isn't endorsed by Riot Games, Inc. League of Legends © Riot Games, Inc.</a>
 		    &middot;
 
 		    &middot;

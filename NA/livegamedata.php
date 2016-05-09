@@ -74,13 +74,18 @@
 					// var_dump($playingChamp);
 				}
     		}
+
 			if(!isset($playingChamp->highestGrade)) {
+				$playingChamp = new stdClass();
+				$playingChamp->championId = $participant->championId;
+				$playingChamp->championPoints = 0;
+				$playingChamp->championLevel = 1;
 				$playingChamp->highestGrade = '';
 			}
 
 			if ($rankedInfoDB == false || $rankedInfoDB == NULL) {
-    			$rankedInfoDB = new stdClass();
-				$rankedInfoDB->tier = 'UNRANKED';
+    			$rankedInfoDB = array(new stdClass());
+				$rankedInfoDB[0]->tier = 'UNRANKED';
 				$entry = new stdClass();
 				$entry->division = '';
 			} else {
@@ -104,12 +109,26 @@
 
 			} else {
 				foreach ($rankedChampsInfoDB->champions as $rankedChampInfoDB) {
-					if(isset($rankedChampInfoDB->id)) {
+					if(isset($rankedChampInfoDB->id)  && isset($playingChamp->championId)) {
 						if($rankedChampInfoDB->id == $playingChamp->championId) {
 							$rankedChampInfo = $rankedChampInfoDB->stats;
 						}
 					}
 				}
+			}
+
+	 		if ($rankedChampInfo == NULL) {
+
+				$rankedChampInfo = new stdClass();
+		        $rankedChampInfo->totalDeathsPerSession = 0;
+		        $rankedChampInfo->totalSessionsPlayed = 1;
+		        $rankedChampInfo->totalMinionKills = 0;
+		        $rankedChampInfo->totalChampionKills = 0;
+		        $rankedChampInfo->totalAssists = 0;
+		        $rankedChampInfo->totalSessionsLost = 0;
+		        $rankedChampInfo->totalSessionsWon = 0;
+		        $rankedChampInfo->totalGoldEarned = 0;
+
 			}
 
 	    	array_push($playersPlaying[$participant->teamId], array(
@@ -163,6 +182,7 @@
   <style style="text/css">body{background:#121212;background-image:url(img/background/Background6.jpg);background-size:cover;background-attachment:fixed;background-position:center top;background-repeat:no-repeat;}@media (max-width: 1200px) {body{background-size:initial;}}</style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="center_players.js" charset="utf-8"></script>
   <script type="text/javascript">
   	$(function() {
   		$("#loading").remove();
@@ -185,7 +205,7 @@
             <div class="HeaderTools">
 		        <dl>
 			    <dd class="Region">
-			        <a href="#" onclick="showIFrame('#');return false;"><i class='__spSite __spSite-107'></i><?php echo $lang['LANG_TOP']; ?></a>
+			        <a href="#" onclick="showIFrame('#');return false;"><i class='__spSite __spSite-112'></i><?php echo $lang['LANG_TOP']; ?></a>
 			    </dd>
 			    </dl>
 		    </div>
@@ -437,7 +457,7 @@ else if ($mapId == 14)
                                                                 </div>
                                                             </div>
                                                         </div>
-		                                            <div style="margin-top:-50px;">
+		                                            <div style="margin-top:-50px;" id="blue">
 
 
 														<?php
@@ -507,7 +527,7 @@ else if ($mapId == 14)
 																	break;
 															}
 
-															$border = NULL;
+															$border = 'blue';
 															switch ($blueplayer['rankedInfo'][0]->tier) {
 																case 'BRONZE':
 																	$border = 'bronze';
@@ -544,7 +564,7 @@ else if ($mapId == 14)
 						                                            <img width="25px" style="position: absolute;  z-index: 6;top:294.5px;left:146.59px;" src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/'.$mastery.'.png" />
 						                                            <img width="40px" style="position: absolute;  z-index: 6;top:150px;left:140px;" src="img/tiers/'.strtolower($blueplayer['rankedInfo'][0]->tier).'_'.strtolower($blueplayer['entry']->division).'.png" />
 						                                            <div style="width:3000px;"></div>
-			                                                        <img width="190px" style="position: absolute;  z-index: 3;" src="img/loadingscreen/'.$border.'-loading-screen-border.png" />
+			                                                        <img width="190px" style="position: absolute;  z-index: 5;" src="img/loadingscreen/'.$border.'-loading-screen-border.png" />
 				                                                    <div style="position: absolute;  z-index: 4;top:170px;left:12px;">
 								                                        <table style=" background:rgba(0,0,0,0.800);height:100px;width:167.5px;">
 	                                                                        <tbody>
@@ -576,12 +596,12 @@ else if ($mapId == 14)
 					                                                    </table>
 							                                        </div>
 		                                                            <div style="position: absolute;  z-index: 12;top:263.5px;left:15px;width:162px;">
-	                                                                    <a href="/profile.php?userName='.$blueplayer['name'].'"><h2 style="font-size:12px; z-index: 12;" align="center" ><font color="white">'.$blueplayer['name'].'</font><h2></a>
+	                                                                    <a href="profile.php?userName='.$blueplayer['name'].'"><h2 style="font-size:12px; z-index: 12;" align="center" ><font color="white">'.$blueplayer['name'].'</font><h2></a>
 	                                                                </div>
 							                                        <img width="45px" style="position: absolute;  z-index: 9;top:-18px;left:75px;" src="'.$champMastery.'" />
 	                                                                <div style="position: absolute;  z-index: 4;top:10px;left:15px;background:rgba(0,0,0,0.900);height:30px;width:162px;">
-	                                                                    <h2  style="font-size:11px;display: inline;" align="center"> &nbsp;&nbsp;&nbsp;'.number_format($blueplayer['champInfo']->championPoints).' CP</h2>
-	                                                                    <h2  style="font-size:11px;display: inline; position: relative; left: 60px;" align="center"> '.$blueplayer['champInfo']->highestGrade.'</h2>
+	                                                                    <h2  style="font-size:11px;display: inline; position: relative; left:18px;" align="center"> &nbsp;&nbsp;&nbsp;'.number_format($blueplayer['champInfo']->championPoints).' CP</h2>
+	                                                                    <h2  style="font-size:11px;display: inline; position: relative; left: 62.5px;" align="center"> '.$blueplayer['champInfo']->highestGrade.'</h2>
 							                                        </div>
 					                                            </div>';
 														}
@@ -615,14 +635,14 @@ else if ($mapId == 14)
 															<?php
 
 																foreach ($bannedChamps['200'] as $bannedChamp) {
-																	echo '<div  class="banslivegameblue"><img style="position:absolute;" width="32px" src="img/champion/'.$bannedChamp.'.png"/><img style="position:absolute;" src="img/loadingscreen/ban.png"/></div>';
+																	echo '<div  class="banslivegamered"><img style="position:absolute;" width="32px" src="img/champion/'.$bannedChamp.'.png"/><img style="position:absolute;" src="img/loadingscreen/ban.png"/></div>';
 
 																}
 
 															 ?>
 														</div>
 											            <br style="line-height:60px;">
-											            <div>
+											            <div id="red">
 
 				                                            <?php
 
@@ -691,7 +711,7 @@ else if ($mapId == 14)
 																		break;
 																}
 
-																$border = NULL;
+																$border = 'red';
 																switch ($redplayer['rankedInfo'][0]->tier) {
 																	case 'BRONZE':
 																		$border = 'bronze';
@@ -728,7 +748,7 @@ else if ($mapId == 14)
 							                                            <img width="25px" style="position: absolute;  z-index: 6;top:294.5px;left:146.59px;" src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/'.$mastery.'.png" />
 							                                            <img width="40px" style="position: absolute;  z-index: 6;top:150px;left:140px;" src="img/tiers/'.strtolower($redplayer['rankedInfo'][0]->tier).'_'.strtolower($redplayer['entry']->division).'.png"  />
 							                                            <div style="width:3000px;"></div>
-				                                                        <img width="190px" style="position: absolute;  z-index: 3;" src="img/loadingscreen/'.$border.'-loading-screen-border.png" />
+				                                                        <img width="190px" style="position: absolute;  z-index: 5;" src="img/loadingscreen/'.$border.'-loading-screen-border.png" />
 					                                                    <div style="position: absolute;  z-index: 4;top:170px;left:12px;">
 									                                        <table style=" background:rgba(0,0,0,0.800);height:100px;width:167.5px;">
 		                                                                        <tbody>
@@ -760,12 +780,12 @@ else if ($mapId == 14)
 						                                                    </table>
 								                                        </div>
 			                                                            <div style="position: absolute;  z-index: 12;top:263.5px;left:15px;width:162px;">
-		                                                                    <a href="/profile.php?userName='.$redplayer['name'].'"><h2 style="font-size:12px; z-index: 12;" align="center"><font color="white">'.$redplayer['name'].'</font><h2></a>
+		                                                                    <a href="profile.php?userName='.$redplayer['name'].'"><h2 style="font-size:12px; z-index: 12;" align="center"><font color="white">'.$redplayer['name'].'</font><h2></a>
 		                                                                </div>
 								                                        <img width="45px" style="position: absolute;  z-index: 9;top:-18px;left:75px;" src="'.$champMastery.'" />
 		                                                                <div style="position: absolute;  z-index: 4;top:10px;left:15px;background:rgba(0,0,0,0.900);height:30px;width:162px;">
-		                                                                    <h2 title="Champion Points" style="font-size:11px;display: inline;" align="center"> &nbsp;&nbsp;&nbsp;'.number_format($redplayer['champInfo']->championPoints).' CP</h2>
-		                                                                    <h2 title="Grade Achieved with this Champion" style="font-size:11px;display: inline; position: relative; left: 60px;" align="center"> '.$redplayer['champInfo']->highestGrade.'</h2>
+		                                                                    <h2 style="font-size:11px;display: inline; position: relative; left:18px;" align="center"> &nbsp;&nbsp;&nbsp;'.number_format($redplayer['champInfo']->championPoints).' CP</h2>
+		                                                                    <h2 style="font-size:11px;display: inline; position: relative; left: 62.5px;" align="center"> '.$redplayer['champInfo']->highestGrade.'</h2>
 								                                        </div>
 						                                            </div>';
 															}
@@ -794,11 +814,11 @@ else if ($mapId == 14)
     <footer>
         <div class="wrapInner">
             &copy; 2016 LoLMastery.NET &middot;
-		    <a href="about.html">About LoLMastery</a>
+		    <a href="about.php">LoLMastery.net isn't endorsed by Riot Games, Inc. League of Legends © Riot Games, Inc.</a>
 		    &middot;
-		    <a href="contact.html">Contact Us</a>
+		    
 		    &middot;
-		    <a href="legal/privacy.html">Privacy Policy</a>
+		    
 		    &middot;
 
             <div class="socialMedia">

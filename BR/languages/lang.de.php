@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Beschwörer suchergebnisse - League of Legends Beschwörer champion meisterschaft';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Suchen summoner Meisterschaft und Meisterschaft Leitern';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master Leiter - League of Legends Summoner Champion Meisterschaft Rang'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Oben Champion Punkte Leiter'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Suchen Sie eine Beschwörer in Spiel';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Suchen summoner Meisterschaft und Meisterschaft Leitern';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master Leiter - League of Legends Summoner Champion Meisterschaft Rang'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Oben Champion Punkte Leiter'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Suchen Sie eine Beschwörer in Spiel';
 $lang['404_title_NOTINGAME'] = 'Beschwörer nicht im Spiel';
 $lang['404_TOP_NOTINGAME'] = 'Sieht aus wie diese Beschwörer nicht im Spiel ist , geben Sie bitte Ihre Rechtschreibung überprüfen.';
 $lang['LOADING_LIVEGAME'] = 'Laden...';

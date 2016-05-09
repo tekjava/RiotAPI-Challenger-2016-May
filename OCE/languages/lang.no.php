@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Summoner søkeresultater - League of Legends summoner mester mestring';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Søke summoner mestring og mestring stiger';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master Stige - League of Legends Summoner Mester Mestring Rangering'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Toppen mester poeng stige';
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Søk en Summoner i spill'; 
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Søke summoner mestring og mestring stiger';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master Stige - League of Legends Summoner Mester Mestring Rangering'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Toppen mester poeng stige';
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Søk en Summoner i spill'; 
 $lang['404_title_NOTINGAME'] = 'Summoner ikke i spill';
 $lang['404_TOP_NOTINGAME'] = 'Ser ut som dette Summoner ikke er i spill , kan du sjekke stavemåten .';
 $lang['LOADING_LIVEGAME'] = 'Laster...';

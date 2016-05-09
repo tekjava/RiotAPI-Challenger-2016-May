@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Przywolywacz wyniki wyszukiwania - League of Legends przywolywacz szampion szampionostwo';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Szukaj Przywoływacz opanowanie i drabiny mistrzostwo';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master Drabina - League of Legends Przywoływacz Mistrz Mistrzostwo Zaszeregowanie'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Najważniejsze punkty mistrz drabinka'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Szukaj Przywolywacz w grze';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Szukaj Przywoływacz opanowanie i drabiny mistrzostwo';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master Drabina - League of Legends Przywoływacz Mistrz Mistrzostwo Zaszeregowanie'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Najważniejsze punkty mistrz drabinka'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Szukaj Przywolywacz w grze';
 $lang['404_title_NOTINGAME'] = 'Nie Przywolywacz w grze';
 $lang['404_TOP_NOTINGAME'] = 'Wygląda na to, Przywolywacz nie jest w grze , sprawdź pisownię .';
 $lang['LOADING_LIVEGAME'] = 'Ładowanie...';

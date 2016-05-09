@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Haberci arama sonuçları - League of Legends Haberci şampiyon ustalık';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Arama ulak ustalık ve ustalık merdivenleri';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master Merdiven - League of Legends Sıralama Ulak Şampiyonu Ustalık'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - En şampiyon noktaları merdiven'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - oyun sahip haberci ara';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Arama ulak ustalık ve ustalık merdivenleri';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master Merdiven - League of Legends Sıralama Ulak Şampiyonu Ustalık'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - En şampiyon noktaları merdiven'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - oyun sahip haberci ara';
 $lang['404_title_NOTINGAME'] = 'oyunu olup Haberci';
 $lang['404_TOP_NOTINGAME'] = 'Bu ulak oyunda değil gibi, yazım kontrol edin görünüyor.';
 $lang['LOADING_LIVEGAME'] = 'Yükleniyor...';

@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Summoner sökresultat - League of Legends summoner mästare herravälde';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Sök summoner behärskning och behärskning stegar';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master Stege - League of Legends Summoner Mästare Herravälde Ranking'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Sammanfattning mästare punkter stege'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Sök en Summoner i spel';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Sök summoner behärskning och behärskning stegar';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master Stege - League of Legends Summoner Mästare Herravälde Ranking'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Sammanfattning mästare punkter stege'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Sök en Summoner i spel';
 $lang['404_title_NOTINGAME'] = 'Summoner inte spelet';
 $lang['404_TOP_NOTINGAME'] = 'Ser ut så här summoner är inte i spel , kontrollera stavningen.';
 $lang['LOADING_LIVEGAME'] = 'Läser in...';

@@ -34,7 +34,7 @@ require_once 'connect_db.php';
             <link href="css/championladder.css" rel="stylesheet" type="text/css">
             <link rel="stylesheet" href="css/top_list_viewer.css" media="screen" title="no title" charset="utf-8">
 
-            <style style="text/css">body{background:#121212;background-image:url(img/background/Background6.jpg);background-size:100% auto;background-attachment:fixed;background-position:center top;background-repeat:no-repeat;}@media (max-width: 1200px) {body{background-size:initial;}}</style>
+            <style style="text/css">body{background:#121212;background-image:url(img/background/Background6.jpg);background-size:cover;background-attachment:fixed;background-position:center top;background-repeat:no-repeat;}@media (max-width: 1200px) {body{background-size:initial;}}</style>
 
             <!-- scripts -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -67,13 +67,13 @@ require_once 'connect_db.php';
 
         <body>
 
-            <div id="dataProvider" data-static-path="# site main pg" data-current-realm="EUW" data-current-name=""></div>
+            <div id="dataProvider" data-static-path="# site main pg" data-current-realm="KR" data-current-name=""></div>
                 <div id="wrapOuter">
                     <nav>
                         <div class="HeaderTools">
 					        <dl>
 						        <dd class="Region">
-							        <a href="#" onclick="showIFrame('#');return false;"><i class='__spSite __spSite-107'></i><?php echo $lang['LANG_TOP']; ?></a>
+							        <a href="#" onclick="showIFrame('#');return false;"><i class='__spSite __spSite-109'></i><?php echo $lang['LANG_TOP']; ?></a>
 						    	</dd>
 						    </dl>
 					    </div>
@@ -1490,7 +1490,7 @@ require_once 'connect_db.php';
 
 <footer>
 <div class="wrapInner">
-&copy; 2016 LoLMastery.ff  &middot;<a href="about.php">LoLMastery.ff isn't endorsed by Riot Games, Inc. League of Legends © Riot Games, Inc.</a> &middot;  &middot;  &middot;
+&copy; 2016 LoLMastery.net  &middot;<a href="about.php">LoLMastery.net isn't endorsed by Riot Games, Inc. League of Legends © Riot Games, Inc.</a> &middot;  &middot;  &middot;
 <div class="socialMedia">
 <a href="#"><img src="img/social/twitter.png" alt="Twitter"></a>
 <a href="#"><img src="img/social/facebook.png" alt="Facebook"></a>

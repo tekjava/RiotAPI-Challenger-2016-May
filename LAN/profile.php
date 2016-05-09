@@ -95,7 +95,7 @@
 
 <body> <!-- BODY OPENS -->
 
-    <div id="dataProvider" data-current-realm="EUW" data-current-name="<?php print $summonerName; ?>"></div> <!-- Data Provider -->
+    <div id="dataProvider" data-current-realm="LAN" data-current-name="<?php print $summonerName; ?>"></div> <!-- Data Provider -->
     <div id="wrapOuter">
 
         <!-- Navigation Bar OPENS -->
@@ -105,7 +105,7 @@
             <div class="HeaderTools">
 		        <dl>
 			    <dd class="Region">
-			        <a href="#" onclick="showIFrame('#');return false;"><i class='__spSite __spSite-107'></i><?php echo $lang['LANG_TOP']; ?></a>
+			        <a href="#" onclick="showIFrame('#');return false;"><i class='__spSite __spSite-110'></i><?php echo $lang['LANG_TOP']; ?></a>
 			    </dd>
 			    </dl>
 		    </div>
@@ -912,8 +912,8 @@
     <!-- FOOTER OPEN -->
     <footer>
         <div class="wrapInner">
-            &copy; 2016 LoLMastery.ff  &middot;
-		   <a href="about.php">LoLMastery.ff isn't endorsed by Riot Games, Inc. League of Legends © Riot Games, Inc.</a>
+            &copy; 2016 LoLMastery.net  &middot;
+		   <a href="about.php">LoLMastery.net isn't endorsed by Riot Games, Inc. League of Legends © Riot Games, Inc.</a>
 		    &middot;
 
 		    &middot;

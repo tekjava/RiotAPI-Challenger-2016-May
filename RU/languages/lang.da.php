@@ -9,11 +9,11 @@ $lang = array();
 
 
 // PAGE TITLE
-$lang['HOMEPAGE_TITLE'] = 'Summoner søgeresultater - League of Legends summoner champion beherskelse - LoLMastery.ff';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Søg Summoner beherskelse og beherskelse stiger';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master STIGE - League of Legends Summoner Champion beherskelse rang'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Top champion punkter stige'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Søg efter et Summoner i spil'; 
+$lang['HOMEPAGE_TITLE'] = 'Summoner søgeresultater - League of Legends summoner champion beherskelse - LoLMastery.net';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Søg Summoner beherskelse og beherskelse stiger';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master STIGE - League of Legends Summoner Champion beherskelse rang'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Top champion punkter stige'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Søg efter et Summoner i spil'; 
 $lang['404_title_NOTINGAME'] = 'Summoner ikke i spil';
 $lang['404_TOP_NOTINGAME'] = 'Ligner dette Summoner ikke er i spil , kan du tjekke din stavning.';
 $lang['LOADING_LIVEGAME'] = 'Lastning...';

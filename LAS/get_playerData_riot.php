@@ -58,12 +58,22 @@ class PlayerData {
     public function getSummonerTier() {
         sleep(0.1); // Prevents from spamming
         $sumonerId = $this->summonerData->id;
-        return json_decode(file_get_contents('https://las.api.pvp.net/api/lol/las/v2.5/league/by-summoner/' . $sumonerId . '/entry?api_key=' . $this->apiKey))->$sumonerId;
+        $response = json_decode(file_get_contents('https://las.api.pvp.net/api/lol/las/v2.5/league/by-summoner/' . $sumonerId . '/entry?api_key=' . $this->apiKey));
+        if(isset($response->status) && $response->status->status_code == 404) {
+            return NULL;
+        } else {
+            return $response->$sumonerId;
+        }
     }
 
     public function getRankedChampsInfo() {
         sleep(0.1); // Prevents from spamming
-        return json_decode(file_get_contents('https://las.api.pvp.net/api/lol/las/v1.3/stats/by-summoner/' . $this->summonerData->id . '/ranked?season=SEASON2016&api_key=' . $this->apiKey));
+        $response = json_decode(file_get_contents('https://las.api.pvp.net/api/lol/las/v1.3/stats/by-summoner/' . $this->summonerData->id . '/ranked?season=SEASON2016&api_key=' . $this->apiKey));
+        if(isset($response->status) && $response->status->status_code == 404) {
+            return NULL;
+        } else {
+            return $response;
+        }
     }
 }
 

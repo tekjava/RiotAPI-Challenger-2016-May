@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Klicatelj rezultati iskanja - League of Legends Klicatelj prvak mojstrstvo';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Iskanje Klicatelj mojstrstvo in mojstrstva lestve';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master Lestev - League of Legends Klicatelj Prvak obvladanje lestvica'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Vrhunec prvak točk lestev'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Iskanje pozvati v igri';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Iskanje Klicatelj mojstrstvo in mojstrstva lestve';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master Lestev - League of Legends Klicatelj Prvak obvladanje lestvica'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Vrhunec prvak točk lestev'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Iskanje pozvati v igri';
 $lang['404_title_NOTINGAME'] = 'Pozvati ni v igri';
 $lang['404_TOP_NOTINGAME'] = 'Izgleda, da je ta Klicatelj ni v igri , preverite črkovanje .';
 $lang['LOADING_LIVEGAME'] = 'Nalaganje...';

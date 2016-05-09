@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Idéző Keresési eredmények - League of Legends Idéző bajnok uralom';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Keresés Idéző mastery és mastery létrák';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master Létra - League of Legends Idéző Bajnok uralom rangsor'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Felső bajnok pont létra'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Keresés a Idéző a játékban';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Keresés Idéző mastery és mastery létrák';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master Létra - League of Legends Idéző Bajnok uralom rangsor'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Felső bajnok pont létra'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Keresés a Idéző a játékban';
 $lang['404_title_NOTINGAME'] = 'Idéző nem játék';
 $lang['404_TOP_NOTINGAME'] = 'Úgy néz ki, mint ez a Idéző nem játék , ellenőrizze a helyesírást .';
 $lang['LOADING_LIVEGAME'] = 'Tölt...';

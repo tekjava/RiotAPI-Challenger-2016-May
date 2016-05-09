@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/basetest.css" media="all"> <!-- Base CSS for the entire site -->
     <link href="css/summoner87f5.css" rel="stylesheet" type="text/css"> <!-- CSS for profile page -->
 
-    <style style="text/css">body{background:#121212;background-image:url(img/background/Background6.jpg);background-size:100% auto;background-attachment:fixed;background-position:center top;background-repeat:no-repeat;}@media (max-width: 1200px) {body{background-size:initial;}}</style>
+    <style style="text/css">body{background:#121212;background-image:url(img/background/Background6.jpg);background-size:cover;background-attachment:fixed;background-position:center top;background-repeat:no-repeat;}@media (max-width: 1200px) {body{background-size:initial;}}</style>
 
 </head> <!-- HEAD CLOSES -->
 
@@ -39,7 +39,7 @@
             <div class="HeaderTools">
 		        <dl>
 			    <dd class="Region">
-			        <a href="#" onclick="showIFrame('#');return false;"><i class='__spSite __spSite-107'></i><?php echo $lang['LANG_TOP']; ?></a>
+			        <a href="#" onclick="showIFrame('#');return false;"><i class='__spSite __spSite-105'></i><?php echo $lang['LANG_TOP']; ?></a>
 			    </dd>
 			    </dl>
 		    </div>
@@ -124,12 +124,12 @@
     <!-- FOOTER OPEN -->
     <footer>
         <div class="wrapInner">
-            &copy; 2016 LoLMastery.ff &middot;
-		   <a href="about.php">LoLMastery.ff isn't endorsed by Riot Games, Inc. League of Legends © Riot Games, Inc.</a>
+            &copy; 2016 LoLMastery.net &middot;
+		   <a href="about.php">LoLMastery.net isn't endorsed by Riot Games, Inc. League of Legends © Riot Games, Inc.</a>
 		    &middot;
-		    
+
 		    &middot;
-		    
+
 		    &middot;
 
             <div class="socialMedia">

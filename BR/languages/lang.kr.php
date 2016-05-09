@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = '소환사 검색 결과 - 전설 소환사 챔피언 특화 리그';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - 검색 소환의 지배와 지배 사다리';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - 도전자 및 마스터 사다리 - 순위 리그 오브 레전드 소환사 챔피언 마스터리'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - 최고 챔피언 포인트 사다리'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - 게임에서 소환사 검색';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - 검색 소환의 지배와 지배 사다리';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - 도전자 및 마스터 사다리 - 순위 리그 오브 레전드 소환사 챔피언 마스터리'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - 최고 챔피언 포인트 사다리'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - 게임에서 소환사 검색';
 $lang['404_title_NOTINGAME'] = '게임 에없는 소환사';
 $lang['404_TOP_NOTINGAME'] = '이 소환사 는 게임 에없는 것처럼 , 맞춤법을 확인하시기 바랍니다 보인다.';
 $lang['LOADING_LIVEGAME'] = '로드...';

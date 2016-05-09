@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Résultats de la recherche invocateur - League of Legends invocateur champion maîtrise';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Recherche invocateur maîtrise et échelles de maîtrise';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Challenger & Master Échelle - League of Legends Invocateur Champion Maîtrise Classement'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Points de champion meilleur échelle'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Rechercher un invocateur dans le jeu';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Recherche invocateur maîtrise et échelles de maîtrise';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Challenger & Master Échelle - League of Legends Invocateur Champion Maîtrise Classement'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Points de champion meilleur échelle'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Rechercher un invocateur dans le jeu';
 $lang['404_title_NOTINGAME'] = 'Invocateur pas dans le jeu';
 $lang['404_TOP_NOTINGAME'] = 'On dirait que ce invocateur est pas en jeu , s&#39;il vous plaît vérifier votre orthographe .';
 $lang['LOADING_LIVEGAME'] = 'Chargement...';

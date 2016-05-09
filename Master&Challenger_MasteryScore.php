@@ -26,7 +26,7 @@ include_once 'get_playerData_db.php';
 
 
 
-<style style="text/css">body{background:#121212;background-image:url(img/background/Background6.jpg);background-size:100% auto;background-attachment:fixed;background-position:center top;background-repeat:no-repeat;}@media (max-width: 1200px) {body{background-size:initial;}}</style>
+<style style="text/css">body{background:#121212;background-image:url(img/background/Background6.jpg);background-size:cover;background-attachment:fixed;background-position:center top;background-repeat:no-repeat;}@media (max-width: 1200px) {body{background-size:initial;}}</style>
 
 
 
@@ -243,7 +243,7 @@ include_once 'get_playerData_db.php';
 
 <footer>
 <div class="wrapInner">
-&copy; 2016 LoLMastery.ff &middot;<a href="about.php">LoLMastery.ff isn't endorsed by Riot Games, Inc. League of Legends © Riot Games, Inc.</a> &middot;  &middot;  &middot;
+&copy; 2016 LoLMastery.net &middot;<a href="about.php">LoLMastery.net isn't endorsed by Riot Games, Inc. League of Legends © Riot Games, Inc.</a> &middot;  &middot;  &middot;
 <div class="socialMedia">
 <a href="#"><img src="img/social/twitter.png" alt="Twitter"></a>
 <a href="#"><img src="img/social/facebook.png" alt="Facebook"></a>

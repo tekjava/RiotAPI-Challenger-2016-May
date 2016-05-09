@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = '召唤师搜索结果 - 召唤师传奇掌握冠军联盟';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - 搜索召唤精通和掌握梯子';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - 挑战者与主梯 - 英雄联盟召唤师冠军通达排名'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - 前冠军点的阶梯'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - 在游戏中寻找一个召唤师';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - 搜索召唤精通和掌握梯子';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - 挑战者与主梯 - 英雄联盟召唤师冠军通达排名'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - 前冠军点的阶梯'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - 在游戏中寻找一个召唤师';
 $lang['404_title_NOTINGAME'] = '召唤师不在游戏';
 $lang['404_TOP_NOTINGAME'] = '貌似这个召唤是不是在游戏，请检查您的拼写。';
 $lang['LOADING_LIVEGAME'] = '加载...';

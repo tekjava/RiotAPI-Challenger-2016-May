@@ -10,10 +10,10 @@ $lang = array();
 
 // PAGE TITLE
 $lang['HOMEPAGE_TITLE'] = 'Суммонер резултати претраге - League of Legends Суммонер шампион мајсторство';
-$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Тражи Суммонер мајсторство и савладавања љестве';
-$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Изазивач и мастер турнир - League of Legends Суммонер Шампион мајсторство Рангирање'; 
-$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.ff - Топ цхампион бодова мердевине'; 
-$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.ff - Потражите Суммонер у игри';
+$lang['HOME_HOMEPAGE_TITLE'] = 'LoLMastery.net - Тражи Суммонер мајсторство и савладавања љестве';
+$lang['MC_HOMEPAGE_TITLE'] = 'LoLMastery.net - Изазивач и мастер турнир - League of Legends Суммонер Шампион мајсторство Рангирање'; 
+$lang['TOPCHAMPMASTERYLADDER_HOMEPAGE_TITLE'] = 'LoLMastery.net - Топ цхампион бодова мердевине'; 
+$lang['HOME_HOMEPAGE_TITLE_lIVEGAMES'] = 'LoLMastery.net - Потражите Суммонер у игри';
 $lang['404_title_NOTINGAME'] = 'Суммонер не игра';
 $lang['404_TOP_NOTINGAME'] = 'Изгледа да је ово Суммонер није у игри , проверите правопис .';
 $lang['LOADING_LIVEGAME'] = 'утовар...';
