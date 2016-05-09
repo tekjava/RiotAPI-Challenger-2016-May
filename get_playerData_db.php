@@ -23,11 +23,6 @@
         }
     }
 
-    // $epoch = $summoner->revisionDate;
-    // $epoch = substr($epoch, 0, -3);
-    // $dt = new DateTime("@$epoch"); // convert UNIX timestamp to PHP DateTime
-    // echo $dt->format('d-m-y H:i:s'); // output as RFC 2822 date - returns local time
-
     function getMasteryPoints($conn, $summonerName, $table) {
 
         $summonerName = mb_strtolower(str_replace(" ", "", $summonerName), 'UTF-8');
@@ -92,7 +87,7 @@
                 return $ranked_champs_data;
             }
         } else {
-            return 'Error Ranked Champs Data';
+            return false;
         }
     }
 
@@ -107,7 +102,7 @@
                 return $tier_data;
             }
         } else {
-            return 'Error Tire Data';
+            return false;
         }
     }
 

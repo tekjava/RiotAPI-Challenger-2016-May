@@ -59,9 +59,7 @@
 				//  echo '<br>';
 
 		    if ($champsInfoDB == false || $champsInfoDB == NULL) {
-				sleep(2);
 		    	storeData($conn, $apiKey, $name, 'players_data_BR');
-		 		sleep(2);
 				header("Refresh:0");
 
 			} else {

@@ -3,7 +3,7 @@
 	include_once 'get_playerData_db.php';
 	require_once 'connect_db.php';
 	include_once 'store_data_riot.php';
-	
+
 	$summonerData;
 	$tierInfo;
 	$ranked_champs_info;
@@ -230,7 +230,7 @@
                                                             echo '<button class="Button SemiRound UPDATED" id="UpdateButton" title="'.$lang['UPDATED_BUTTON_TITLE'].'" disabled>'.$lang['UPDATED_BUTTON'].'</button>';
                                                         }
 														else {
-                                                            echo '<a href="./profiletest.php?userName='.$_GET['userName'].'&update="><button class="Button SemiRound White" id="UpdateButton" title="'.$lang['UPDATE_BUTTON_TITLE'].'" >'.$lang['UPDATE_BUTTON'].'</button></a>';
+                                                            echo '<a href="profile.php?userName='.$_GET['userName'].'&update="><button class="Button SemiRound White" id="UpdateButton" title="'.$lang['UPDATE_BUTTON_TITLE'].'" >'.$lang['UPDATE_BUTTON'].'</button></a>';
                                                         }
                                                     }
                                                 ?>

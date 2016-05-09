@@ -11,7 +11,6 @@ class PlayerData {
 
     // construct with api key and summonerName
     function __construct($apiKey, $summonerNameOrId) {
-      sleep(1);
         $this->apiKey = $apiKey;
         $this->summonerNameOrId = $summonerNameOrId;
         $result;
@@ -20,16 +19,19 @@ class PlayerData {
 
         // get summoner data
         if(gettype($summonerNameOrId) == 'integer') {
+            sleep(0.1); // Prevents from spamming
             $url = 'https://lan.api.pvp.net/api/lol/lan/v1.4/summoner/' . $summonerNameOrId . '?api_key=' . $apiKey;
             $resultHeaders = get_headers($url);
             //echo 'Found int!';
         } else {
+            sleep(0.1); // Prevents from spamming
         	$url = 'https://lan.api.pvp.net/api/lol/lan/v1.4/summoner/by-name/' . $summonerNameOrId . '?api_key=' . $apiKey;
             $resultHeaders = get_headers($url);
             // echo 'Found name!';
         }
 
         if($resultHeaders[0] == "HTTP/1.1 200 OK") {
+            sleep(0.1); // Prevents from spamming
             //echo 'Found player!';
             $result = file_get_contents($url);
             $sumName_f = mb_strtolower(str_replace(' ', '', $summonerNameOrId), 'UTF-8');
@@ -44,7 +46,7 @@ class PlayerData {
 
     // returns masteryInfo
     public function getChampsInfo() {
-      sleep(2);
+        sleep(0.1); // Prevents from spamming
         return json_decode(file_get_contents('https://lan.api.pvp.net/championmastery/location/LA1/player/' . $this->summonerData->id . '/champions?api_key=' . $this->apiKey));
     }
 
@@ -54,13 +56,13 @@ class PlayerData {
     }
 
     public function getSummonerTier() {
-        sleep(2);
+        sleep(0.1); // Prevents from spamming
         $sumonerId = $this->summonerData->id;
         return json_decode(file_get_contents('https://lan.api.pvp.net/api/lol/lan/v2.5/league/by-summoner/' . $sumonerId . '/entry?api_key=' . $this->apiKey))->$sumonerId;
     }
 
     public function getRankedChampsInfo() {
-        sleep(2);
+        sleep(0.1); // Prevents from spamming
         return json_decode(file_get_contents('https://lan.api.pvp.net/api/lol/lan/v1.3/stats/by-summoner/' . $this->summonerData->id . '/ranked?season=SEASON2016&api_key=' . $this->apiKey));
     }
 }

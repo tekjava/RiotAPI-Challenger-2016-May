@@ -25,7 +25,6 @@
 
         if($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
-                sleep(2); // Will be changed when production key is available
                 $leagueData = json_decode(file_get_contents('https://kr.api.pvp.net/api/lol/kr/v2.5/league/by-summoner/'.$row['sum_id'].'?api_key='.$apiKey));
 
                 if(!isset($leagueData->status)) {
@@ -36,7 +35,6 @@
             }
 
             foreach ($entries as $entry) {
-                sleep(2); // Will be changed when production key is available
                 storeData($conn, $apiKey, $entry, 'players_data_KR';
             }
         }

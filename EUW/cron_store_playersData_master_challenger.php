@@ -30,8 +30,8 @@
         // store players in db
         for ($i=0; $i < count($master_elo_players); $i++) {
             array_push($playersNotDelete, $master_elo_players[$i]->playerOrTeamId);
-            if(storeData($conn, $apiKey, (int) $master_elo_players[$i]->playerOrTeamId, "challengerandmaster_data")) {
-                sleep(10); // Will be changed when production key is available
+            if (storeData($conn, $apiKey, (int) $master_elo_players[$i]->playerOrTeamId, "challengerandmaster_data")) {
+                echo "Stored: ".$master_elo_players[$i]->playerOrTeamId;
             }
             echo "<br>";
         }
@@ -43,8 +43,8 @@
         // store players in db
         for ($i=0; $i < count($challenger_elo_players); $i++) {
             array_push($playersNotDelete, $challenger_elo_players[$i]->playerOrTeamId);
-            if(storeData($conn, $apiKey, (int) $challenger_elo_players[$i]->playerOrTeamId, "challengerandmaster_data")) {
-                sleep(10); // Will be changed when production key is available
+            if (storeData($conn, $apiKey, (int) $challenger_elo_players[$i]->playerOrTeamId, "challengerandmaster_data")) {
+                echo "Stored: ".$challenger_elo_players[$i]->playerOrTeamId;
             }
             echo "<br>";
         }
